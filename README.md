@@ -15,4 +15,22 @@ Currently, there is only `on ready [` and `on message [` as event functions.
 
 Currently, there is `return`, `log`, `send`, `if`, `set` and `delete`.
 
+# Bot Example
+```
+on ready [
+  log "Bot is ready!"
+]
+
+on message [
+  if message.author.bot {
+    return
+  }
+  if message.content == "!help" {
+    set nicethisisthevariablename "Hi!"
+    send `${nicethisisthevariablename}`
+    delete heck
+  }
+]
+```
+
 # still in development
