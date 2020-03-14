@@ -15,6 +15,4 @@ Currently, there is only `on ready [` and `on message [` as event functions.
 
 Currently, there is `return`, `log`, `send`, `if`, `set` and `delete`.
 
-`if`, `set` and `delete` are the keywords that uses Javascript, but with a slight modification.
-
 # still in development
